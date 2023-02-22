@@ -9,7 +9,7 @@ def writefile(csv_content):
     add_demo = ("INSERT INTO demo "
                 "(col1, col2, col3) "
                 "VALUES (%s, %s, %s)")
-    data_add_demo = ('b', 2, 20)
+    
     cursor.execute(add_demo, csv_content)
     cn.commit()
 
