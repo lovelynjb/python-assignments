@@ -1,4 +1,5 @@
-#Read from a nested json file and flatten into a csv file
+#Read from a json file and load into a table with JSON data type columns
+
 import json
 import mysql.connector
 
